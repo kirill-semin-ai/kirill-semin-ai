@@ -1,16 +1,18 @@
 # Кирилл Семин
 
-Начинающий **AI / LLM / ML Engineer**. Интересуюсь машинным обучением, NLP, LLM, AI-агентами, локальными нейросетевыми системами и внедрением AI-моделей в реальные продукты.
+Начинающий AI / LLM / ML Engineer. Интересуюсь машинным обучением, NLP, LLM, AI-агентами, локальными нейросетевыми системами и внедрением AI-моделей в реальные продукты.
 
 Сейчас развиваюсь в направлении **Junior AI Engineer / Junior LLM Engineer / ML/NLP Intern**. Ищу стажировку, trainee-позицию или junior-задачи, где смогу расти в Python, ML, NLP, LLM, RAG, AI agents и MLOps/LLMOps.
 
 ---
 
-## Основной проект
+## Портфолио
 
 ### JarvisCore — локальная AI-agent платформа
 
-**JarvisCore** — локальный AI-ассистент, построенный вокруг OpenAI-compatible API, OpenWebUI и локальных LLM-моделей.
+[Открыть проект](https://github.com/kirill-semin-ai/jarviscore-ai-agent-showcase)
+
+JarvisCore — локальный AI-ассистент, построенный вокруг OpenAI-compatible API, OpenWebUI и локальных LLM-моделей.
 
 Проект объединяет:
 
@@ -24,6 +26,32 @@
 * технические проверки состояния API, модели и очереди задач.
 
 Проект показывает практический опыт проектирования AI-agent системы, интеграции локальных LLM, работы с API, тестирования поведения ассистента, контроля fake success и безопасного выполнения задач.
+
+### AI Assistant Intent Classifier — ML/NLP intent classifier
+
+[Открыть проект](https://github.com/kirill-semin-ai/ai-assistant-intent-classifier)
+
+Небольшой ML/NLP-проект для классификации пользовательских команд AI-ассистента.
+
+Проект использует:
+
+* Python;
+* pandas;
+* scikit-learn;
+* TF-IDF;
+* Logistic Regression;
+* train/test split;
+* classification metrics;
+* joblib.
+
+Модель классифицирует пользовательские сообщения по интентам: обычный диалог, поиск информации, чтение источников, технические команды, AI-agent задачи и потенциально небезопасные запросы.
+
+Текущий результат baseline-модели после расширения датасета:
+
+* dataset: 120 labeled examples;
+* accuracy: 0.833;
+* macro avg F1-score: 0.83;
+* weighted avg F1-score: 0.83.
 
 ---
 
@@ -41,7 +69,7 @@
 
 ## Стек и технологии
 
-**AI / LLM:**
+### AI / LLM
 
 * Local LLMs
 * LM Studio
@@ -52,7 +80,18 @@
 * RAG basics
 * Source reader
 
-**Programming / Backend:**
+### ML / NLP
+
+* Python для AI/ML-задач
+* pandas
+* scikit-learn
+* TF-IDF
+* Logistic Regression
+* train/test split
+* classification metrics
+* базовая оценка качества модели
+
+### Programming / Backend
 
 * Python
 * JSON
@@ -61,13 +100,14 @@
 * PowerShell
 * Git / GitHub
 
-**Testing / Reliability:**
+### Testing / Reliability
 
 * Smoke tests
 * Regression gates
 * Snapshot / rollback workflow
 * Structured reports
 * API/model/queue checks
+* Проверка fake success
 
 ---
 
@@ -86,10 +126,11 @@
 
 ## Ближайшие цели
 
-* Оформить JarvisCore как публичный showcase-проект.
-* Сделать небольшой NLP-проект: intent classifier для AI-ассистента.
+* Развить AI Assistant Intent Classifier: добавить русскоязычные примеры, сравнение моделей и FastAPI endpoint.
+* Добавить отдельный файл с результатами экспериментов для ML/NLP-проекта.
 * Углубиться в PyTorch, Transformers, fine-tuning и оценку качества моделей.
-* Найти стажировку или junior-позицию в AI/ML/NLP/LLM-направлении.
+* Подготовить резюме под стажировки и junior-позиции в AI/ML/NLP/LLM-направлении.
+* Найти стажировку, trainee-позицию или junior-задачи, где можно развиваться в AI/ML/NLP.
 
 ---
 
